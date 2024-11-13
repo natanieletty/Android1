@@ -41,7 +41,7 @@ class MainActivity : AppCompatActivity() {
                 type = "image/jpeg"
                 putExtra(Intent.EXTRA_EMAIL, arrayOf("hodovychenko@op.edu.ua"))
                 putExtra(Intent.EXTRA_SUBJECT, "DigiJED Bushniak Natalie")
-                putExtra(Intent.EXTRA_TEXT, " ")
+                putExtra(Intent.EXTRA_TEXT, "https://github.com/natanieletty/Android1")
                 putExtra(Intent.EXTRA_STREAM, imgUri)
             }
             startActivity(emailIntent)
